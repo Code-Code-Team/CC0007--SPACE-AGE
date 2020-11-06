@@ -4,7 +4,7 @@ This study aims to develop algoritm skills.
 
 ## Description
 
-- Given an age in seconds, calculate how old someone would be on:
+1. Given an age in seconds, calculate how old someone would be on:
   1. Mercury: orbital period 0.2408467 Earth years
   2. Venus: orbital period 0.61519726 Earth years
   3. Earth: orbital period 1.0 Earth years, 365.25 Earth days, or 31,557,600 seconds
