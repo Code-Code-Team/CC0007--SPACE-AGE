@@ -7,7 +7,7 @@ const selectedOption = selectElement.options[selectElement.selectedIndex];
 
 let age
 
-function convertToEarthYears(val, planet) {
+function convertToPlanetYears(val, planet) {
   console.log('convertToEarthYears -> val', val);
   console.log('convertToEarthYears -> planet', planet);
   const earthYear = val / 31557600;
@@ -46,7 +46,7 @@ buttonElement.addEventListener('click', () => {
   const inputVal = inputElement.value;
   const selectedOption =  
     selectElement.options[selectElement.selectedIndex].text;
-  resultElement.innerText = "Your age " + convertToEarthYears(inputVal, selectedOption).toFixed(2)+ " year" 
+  resultElement.innerText = "Your age " + convertToPlanetYears(inputVal, selectedOption).toFixed(2)+ " year" 
   spaceAgeElement.innerText = "In "+selectedOption;;
   
 });
