@@ -6,8 +6,8 @@ This study aims to develop algoritm skills.
 
 - Given an age in seconds, calculate how old someone would be on:
 
--- Mercury: orbital period 0.2408467 Earth years
--- Venus: orbital period 0.61519726 Earth years
+- Mercury: orbital period 0.2408467 Earth years
+ - Venus: orbital period 0.61519726 Earth years
 -- Earth: orbital period 1.0 Earth years, 365.25 Earth days, or 31,557,600 seconds
 -- Mars: orbital period 1.8808158 Earth years
 -- Jupiter: orbital period 11.862615 Earth years
@@ -21,7 +21,7 @@ So if you were told someone were 1,000,000,000 seconds old, you should be able t
 
 ## Function in Javascript
 
-```Vscode
+```
 let age;
 function convertToPlanetYears(val, planet) {
   console.log('convertToEarthYears -> val', val);
