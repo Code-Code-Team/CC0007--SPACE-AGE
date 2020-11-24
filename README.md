@@ -1,3 +1,8 @@
+### Github Io to check it
+
+[Calculate your Space Age ](https://code-code-team.github.io/CC0007J--SPACE-AGE/)
+
+
 # Space Age function in Javascript
 
 This study aims to develop algoritm skills.
@@ -86,6 +91,3 @@ def convertToPlanetYears(val, planet):
 print("age :",convertToPlanetYears(1000000000, "Mars"))
 ```
 
-### Github Io to check it
-
-@@ [Calculate your Space Age ](https://code-code-team.github.io/CC0007--SPACE-AGE/) @@
